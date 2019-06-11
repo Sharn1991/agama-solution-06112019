@@ -15,7 +15,7 @@ public class WorkingWithChrome {
 		driver.get("http://qatechhub.com");
 	}
 	public void getTitleofthepage() {
-		System.out.println("Title of the page   : :"+ driver.getTitle());
+		System.out.println("Title of the webpage   : :"+ driver.getTitle());
 	}
 	public void closeBrowser()
 	{
